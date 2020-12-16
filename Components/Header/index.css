@@ -1,0 +1,53 @@
+.MenuSuperior{
+    height: 60px;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+/* Roxo */
+
+    background: #9200D6;
+}
+
+.MenuSuperior h1{
+    position: absolute;
+    left: 6.11%;
+    right: 70.83%;
+    top: 1.67%;
+    bottom: 6.67%;
+
+    font-family: Titillium Web;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 55px;
+/* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.MenuSuperior a{
+    position: absolute;
+    right: 1.57%;
+    top: 12.5%;
+    bottom: 12.49%;
+
+    width: 47px;
+
+    background: #FFFFFF;
+}
+i{
+    position: absolute;
+    right: 1.57%;
+    top: 12.5%;
+    bottom: 12.49%;
+
+    width: 47px;
+
+    background: #FFFFFF;
+}

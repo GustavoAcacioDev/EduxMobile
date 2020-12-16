@@ -1,13 +1,21 @@
+import { NavigationContainer } from '@react-navigation/native';
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { StatusBar } from 'expo-status-bar';
-import React from 'react';
+import React from 'react';  
 import { StyleSheet, Text, View } from 'react-native';
+import Home from './Pages/Home';
+import Postagem from './Pages/Postagem';
+
+const Tab = createBottomTabNavigator();
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <NavigationContainer>
+      <Tab.Navigator>
+        <Tab.Screen name="Home" component={Home}/>
+        <Tab.Screen name="Postagem" component={Postagem}/>
+      </Tab.Navigator>
+    </NavigationContainer>
   );
 }
 
